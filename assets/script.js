@@ -20,7 +20,7 @@ const cardArray = [
     {
         name: 'Red XIII',
         img: 'images/Red XIII.jpg',
-    },    
+    },
     {
         name: 'Tifa',
         img: 'images/Tifa.jpg',
@@ -56,7 +56,7 @@ const cardArray = [
     {
         name: 'Red XIII',
         img: 'images/Red XIII.jpg',
-    },    
+    },
     {
         name: 'Tifa',
         img: 'images/Tifa.jpg',
@@ -77,3 +77,10 @@ const cardArray = [
 
 cardArray.sort(() => 0.5 - Math.random())
 
+const gridDisplay = document.querySelector('#grid')
+
+function createBoard() {
+    for (let i = 0; i < 19; i++) {
+        const card = document.createElement('img')
+    }
+}
